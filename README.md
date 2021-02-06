@@ -5,7 +5,7 @@ get digest authentication password from REGZA Apps Connect v2 API
 
 ## How to use
 
-1. REGZAの設定
+### 1. REGZAの設定
 
 #### `ネットワーク設定` -> `ネットワーク接続設定` -> `詳細設定` -> `アドレス設定（IPv4）` 
 
@@ -15,7 +15,7 @@ IPアドレスを `手動設定` にして、任意のアドレスに固定す�
 
 `利用する` に変更する
 
-2. IPアドレスとユーザーIDを書き換える
+### 2. IPアドレスとユーザーIDを書き換える
 
 `register.py` を開き、 `ip` に前項で固定したIPアドレスを、 `user_id` に任意のMACアドレス形式のユーザーIDを記述する
 
@@ -24,7 +24,7 @@ ip = "192.168.0.123" # set your REGZA IP Address
 user_id = "AA-AA-AA-AA-AA-AA" # set any user ID (MAC address format)
 ```
 
-3. 実行
+### 3. 実行
 
 パッケージのインストール
 
