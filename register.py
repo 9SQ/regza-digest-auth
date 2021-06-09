@@ -6,8 +6,8 @@ from Crypto.Protocol.KDF import PBKDF2
 import requests
 from requests.auth import HTTPDigestAuth
 
-ip = "192.168.0.123" # set your REGZA IP Address
-user_id = "AA-AA-AA-AA-AA-AA" # set any user ID (MAC address format)
+ip = "192.168.1.3" # set your REGZA IP Address
+user_id = "EC-21-E5-73-0B-9B" # set any user ID (MAC address format)
 
 request_connection = "http://" + ip + "/v2/public/request_connection"
 confirm_connection = "http://" + ip + "/v2/remote/confirm_connection"
